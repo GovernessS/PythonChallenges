@@ -1,0 +1,5 @@
+def add_greetings(names):
+  greeting = ["Hello, " + name for name in names]
+  return greeting
+
+print(add_greetings(["Owen", "Max", "Sophie"]))
