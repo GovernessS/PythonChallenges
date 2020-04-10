@@ -1,0 +1,10 @@
+def over_nine_thousand(lst):
+  sum = 0
+  #while len(lst) > 0:
+  for item in lst:
+    if sum > 9000:
+      break
+    sum += item
+  return sum
+
+print(over_nine_thousand([8000, 900, 120, 5000]))
