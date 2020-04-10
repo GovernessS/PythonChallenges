@@ -1,0 +1,11 @@
+def every_three_nums(start):
+  myList = []
+  if start > 100:
+    return []
+  else:
+    while start <= 100:
+      myList.append(start)
+      start += 3
+  return myList
+
+print(every_three_nums(91))
